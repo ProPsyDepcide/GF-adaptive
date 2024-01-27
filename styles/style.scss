@@ -1,0 +1,616 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    padding: 3vh 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0E0E18;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-color: #0E0E18;
+}
+
+.leftheader{
+    display: flex;
+    align-items: center;
+    h4{
+        color: #FFFFFF;
+        padding-left: 5vh;
+        font-size: 10px;
+    }
+}
+
+.rightheader{
+    display: flex;
+    align-items: center;
+}
+
+.tandn{
+    padding-right: 5vh;
+    h5{
+        color: grey;
+    }
+    h4{
+        color: #FFFFFF;
+    }
+}
+
+.homecontent1{
+    padding: 15vh 20vh;
+    display: flex;
+    align-items: center;
+    h1{
+        font-weight: 50;
+        background-color: #ffffffb7;
+        padding: 3px 5px;
+        border-radius: 3px;
+    }
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    padding-left: 10vh;
+    gap: 2vh;
+    h2{
+        font-weight: 100;
+    }
+
+}
+
+.eight{
+    color:grey;
+}
+
+.online{
+    font-size: 15px;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #EF3833;
+}
+
+.name{
+    position: absolute;
+    top: 20vh;
+    left: 19vh;
+}
+
+.GF{
+    font-size: 90px;
+    color: white;
+}
+
+.gf2{
+    position: absolute;
+    top: 15vh;
+    color: #FFFFFF;
+    font-weight: 70;
+    font-size: 70px;
+}
+
+.power{
+    position: absolute;
+    bottom:30vh;
+    left: 19vh;
+    display: flex;
+    align-items: center;
+    h4{
+        padding-left: 2vh;
+        color: white;
+    }
+}
+
+.ismspan{
+    font-weight: 20;
+}
+
+.pluses{
+    position: absolute;
+    left: 19vh;
+    bottom: 5vh;
+}
+
+
+.kunlik{
+    color: #63CDF6;
+}
+
+.plus{
+    font-weight: 10;
+    padding-left: 1vh;
+    color: white;
+}
+
+.kunlik{
+    padding-bottom: 3vh;
+}
+
+.tri{
+    display: flex;
+    align-items: center;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+
+.prise{
+    position: relative;
+    position: absolute;
+    right: 4vh;
+    bottom: 9vh;
+}
+
+.trista{
+    display: flex;
+    align-items: center;
+}
+
+.thri{
+    padding-left: 3vh;
+    padding-right: 2vh;
+    font-weight: 10;
+    color: white;
+    text-decoration: line-through;
+}
+
+.bepul{
+    color: #63CDF6;
+}
+
+.fbut{
+    padding: 1vh 3vh;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #63CDF6;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.second{
+    background-color: #0E0E18;
+    width: 100%;
+    height: 90vh;
+    padding-left: 19vh;
+}
+
+
+.nachalo{
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.secondname{
+    color: white;
+    padding-top: 10vh;
+}
+
+.IM{
+    font-weight: 70;
+    font-size: 40px;
+}
+
+.haq{
+    font-size: 38px;
+}
+
+.box{
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    width: 270px;
+    height: 110px;
+    padding: 5vh 3vh;
+}
+
+.box3{
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    width: 270px;
+    height: 110px;
+    padding: 5vh 3vh;
+}
+
+.inf{
+    font-weight: 200;
+}
+
+
+.krug{
+    position: absolute;
+    right: 2vh;
+    top: -3vh;
+    background-color: white;
+    padding: 2vh 2.2vh;
+    border-radius: 100%;
+    box-shadow: 4px 13px 9px 11px rgba(34, 60, 80, 0.17);
+}
+
+.eshe{
+    font-weight: 600;
+}
+
+.forbox{
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    gap: 6vh;
+}
+
+.secthree{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #0E0E18;
+    padding-left: 19vh;
+}
+
+.secthrname{
+    color: white;
+    padding-top: 5vh;
+}
+
+.sthrname{
+    color: white;
+    font-weight: 90;
+}
+
+.korobka{
+    width: 50%;
+    height: 20vh;
+    padding: 5vh 7vh;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+
+}
+
+.korobka2{
+    width: 50%;
+    height: 20vh;
+    padding: 5vh 7vh;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+
+.zaeb{
+    font-weight: 90;
+    color: white
+
+}
+
+.train3{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.korobkawdis{
+    height: 20vh;
+    width: 50%;
+    padding: 5vh 7vh;
+    padding-top: 5vh ;
+}
+
+.secb{
+    padding: 1vh 3vh;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #63CDF6;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.price {
+    flex-direction: column;
+}
+
+.trista2{
+    color: #45CCFF;
+    del{
+        color: white;
+    }
+}
+
+.bl{
+    border-right:2px solid rgba(255, 255, 255, 0.233);
+}
+
+.bt{
+    border-top:2px solid rgba(255, 255, 255, 0.233);
+    margin: 10px;
+}
+
+.rec{
+    width: 2px;
+    padding-top: 15px;
+}
+
+.podarok{
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+}
+
+.podarok2{
+    position: absolute;
+    top: 42vh;
+    left: 40vh;
+}
+
+.podarok3{
+    position: absolute;
+    top: 41vh;
+    left: 53vh;
+}
+
+.secfour{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background-color: #0E0E18;
+    svg{
+        position: absolute;
+        top: 12vh;
+        left: 45%;
+    }
+}
+
+.palette{
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+}
+
+.secfname{
+    color: white;
+    font-size: 45px;
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.ph{
+    border: 1px solid white;
+    padding: 1px;
+    width: 41vh;
+}
+
+.photos{
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.photos2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -20vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    background-color: #0E0E18;
+    padding: 8vh 10vh;
+}
+
+.vlogo{
+    padding-left: 2vh;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.37);
+}
+
+.footright{
+    padding-left: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.flogo{
+    display: flex;
+    align-items: center;
+}
+
+.fimore{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .rightheader{
+        display: none;
+    }
+
+    .fimore{
+        display: block;
+    }
+
+    .homecontent1{
+        gap: 1vh;
+        padding: 5vh 10vh;
+    }
+
+    .day{
+    font-size: 12px;
+    }
+
+    .online{
+    font-size: 12px;
+    }
+
+    .home{
+        background-image: url(/images/bg2.png);
+        background-size: cover;
+        height: 160vh;
+    }
+
+    .name{
+        left: 3vh;
+    }
+
+    .GF{
+        font-size: 70px;
+    }
+
+    .gf2{
+        font-size: 50px;
+    }
+
+    .power{
+        bottom: -5vh;
+        left: 8vh;
+        h4{
+            font-size: 30px;
+        }
+    }
+
+    .pimg{
+        width: 10vh;
+    }
+
+    .pluses{
+        left: 5vh;
+        top: 175vh;
+    }
+
+    .kunlik{
+        font-size: 25px;
+    }
+
+    .plus{
+        font-size: 25px;
+    }
+
+    .tri{
+        padding-top: 10vh;
+    }
+
+    .prise{
+        left: 19vh;
+        bottom: -90vh;
+    }
+    .fbut{
+        right: 20vh;
+        top: 5vh;
+    }
+
+    .second{
+        padding-top: 100vh;
+        height: 220vh;
+        padding-left: 1vh;
+    }
+
+    .nachalo{
+        padding-left: 1vh;
+    }
+
+    .forbox{
+        flex-direction: column;
+    }
+
+    .inf{
+        font-size: 25px;
+    }
+
+    .box{
+        width: 60vh;
+        padding: 3vh 2vh;
+    }
+
+    .box3{
+        width: 60vh;
+        padding: 5vh 2vh;
+    }
+
+    .secthree{
+    height: 120vh;
+    padding-left: 3vh;
+    }
+
+    .train3{
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0vh;
+    }
+
+    .bt{
+        border: none;
+    }
+
+    .rec{
+        display: none;
+    }
+
+    .korobka{
+        border: none;
+        padding: 1vh;
+        width: 90%;
+        height: 10vh;
+        border-bottom:3px solid grey ;
+    }
+
+    .korobka2{
+        padding: 0;
+        width: 50vh;
+    }
+
+    .secfour{
+        height: 135vh;
+        svg{
+            left: 25vh;
+        }
+
+        img{
+            left: 35vh;
+        }
+    }
+
+    .trista2{
+        padding-top: 5vh;
+        font-size: 25px;
+    }
+
+    .secb{
+        font-size: 25px;
+        margin: 1vh 5vh;
+    }
+
+    .flogo{
+        display: none;
+    }
+
+    .soc{
+        width: 8vh;
+    }
+
+    .footright{
+        padding-left: 13vh;
+    }
+}
